@@ -23,12 +23,15 @@ API Docs available on:
 
 ### Authorization
 To register new user you can send POST-request to:
+
 `http://127.0.0.1:8000/api/register/`
 
 To receive new token send POST-request to:
+
 `http://127.0.0.1:8000/api/token/`
 
 To refresh access token from refresh token send POST-request to:
+
 `http://127.0.0.1:8000/api/token/refresh`
 
 Use this token in `Authorization` header of each request.
